@@ -1,0 +1,43 @@
+Last login: Wed Jan 21 14:11:17 on ttys003
+scarletthine@bobcat-120-72 ~ % brew install git
+==> Fetching downloads for: git
+✔︎ Bottle Manifest git (2.52.0_1)                     Downloaded   20.9KB/ 20.9KB
+✔︎ Bottle Manifest libunistring (1.4.1)               Downloaded    7.3KB/  7.3KB
+✔︎ Bottle Manifest gettext (0.26_1)                   Downloaded   13.8KB/ 13.8KB
+✔︎ Bottle Manifest pcre2 (10.47)                      Downloaded   10.4KB/ 10.4KB
+✔︎ Bottle Manifest libiconv (1.18)                    Downloaded    7.5KB/  7.5KB
+✔︎ Bottle libunistring (1.4.1)                        Downloaded    1.9MB/  1.9MB
+✔︎ Bottle gettext (0.26_1)                            Downloaded    9.6MB/  9.6MB
+✔︎ Bottle libiconv (1.18)                             Downloaded    1.6MB/  1.6MB
+✔︎ Bottle pcre2 (10.47)                               Downloaded    2.4MB/  2.4MB
+✔︎ Bottle git (2.52.0_1)                              Downloaded   21.5MB/ 21.5MB
+==> Installing dependencies for git: libunistring, gettext, pcre2 and libiconv
+==> Installing git dependency: libunistring
+==> Pouring libunistring--1.4.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libunistring/1.4.1: 59 files, 5.8MB
+==> Installing git dependency: gettext
+==> Pouring gettext--0.26_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gettext/0.26_1: 2,428 files, 29.6MB
+==> Installing git dependency: pcre2
+==> Pouring pcre2--10.47.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pcre2/10.47: 244 files, 7.3MB
+==> Installing git dependency: libiconv
+==> Pouring libiconv--1.18.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libiconv/1.18: 32 files, 2.9MB
+==> Installing git
+==> Pouring git--2.52.0_1.arm64_sequoia.bottle.1.tar.gz
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+==> Summary
+🍺  /opt/homebrew/Cellar/git/2.52.0_1: 1,733 files, 59.8MB
+==> Running `brew cleanup git`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Caveats
+zsh completions and functions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> git
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+scarletthine@bobcat-120-72 ~ % 
