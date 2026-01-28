@@ -13,12 +13,32 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-3",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 59.0, 293.0, 99.0, 22.0 ],
+                    "text": "SH.Sound.in.v01"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-2",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 101.86, 195.04, 100.0, 22.0 ]
+                }
+            },
+            {
+                "box": {
                     "id": "obj-1",
                     "maxclass": "newobj",
                     "numinlets": 0,
                     "numoutlets": 0,
-                    "patching_rect": [ 47.0, 172.0, 100.0, 22.0 ],
-                    "text": "sh.sound.out.v01"
+                    "patching_rect": [ 47.0, 172.0, 106.0, 22.0 ],
+                    "text": "SH.Sound.out.v01"
                 }
             },
             {
