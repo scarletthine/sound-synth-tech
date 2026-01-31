@@ -1,0 +1,64 @@
+Last login: Tue Jan 27 19:10:49 on ttys003
+scarletthine@bobcat-120-72 ~ % cd /Users/scarletthine/Documents/Blueprint\ to\ Auditory\ Scenes
+scarletthine@bobcat-120-72 Blueprint to Auditory Scenes % cd /Users/scarletthine/Documents/Blueprint\ to\ Auditory\ Scenes/sound-synth-tech
+scarletthine@bobcat-120-72 sound-synth-tech % git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .DS_Store
+	modified:   Week-02/_Scaffold.v01.stereo.maxpat
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Week - 03/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+scarletthine@bobcat-120-72 sound-synth-tech % git add . 
+scarletthine@bobcat-120-72 sound-synth-tech % git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   .DS_Store
+	new file:   Week - 03/ADSR.maxpat
+	new file:   Week - 03/BasicWaveForms.maxpat
+	modified:   Week-02/_Scaffold.v01.stereo.maxpat
+
+scarletthine@bobcat-120-72 sound-synth-tech % git commit -m 
+error: switch `m' requires a value
+scarletthine@bobcat-120-72 sound-synth-tech % git commit -m "week2andweek3"
+[main 5d3a526] week2andweek3
+ Committer: Scarlett Hine <scarletthine@bobcat-120-72.bates.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 763 insertions(+), 2 deletions(-)
+ create mode 100644 Week - 03/ADSR.maxpat
+ create mode 100644 Week - 03/BasicWaveForms.maxpat
+scarletthine@bobcat-120-72 sound-synth-tech % git push origin main 
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (17/17), 7.37 KiB | 7.37 MiB/s, done.
+Total 17 (delta 8), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (8/8), done.
+To https://github.com/scarletthine/sound-synth-tech.git
+   1722a2d..5d3a526  main -> main
+scarletthine@bobcat-120-72 sound-synth-tech % 
+

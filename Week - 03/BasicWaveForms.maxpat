@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 59.0, 119.0, 493.0, 698.0 ],
+        "rect": [ 265.0, 108.0, 999.0, 751.0 ],
         "boxes": [
             {
                 "box": {
@@ -86,7 +86,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 319.04762399196625, 950.7936655282974, 92.06349349021912, 22.0 ],
-                    "text": "1 0 0.469841"
+                    "text": "2 2 0.654815"
                 }
             },
             {
@@ -96,7 +96,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 389.0, 857.0555688142776, 150.0, 47.0 ],
+                    "patching_rect": [ 385.9259132742882, 850.571441411972, 150.0, 47.0 ],
                     "text": "L (out1)\nR (out 2)\ntoADSR"
                 }
             },
