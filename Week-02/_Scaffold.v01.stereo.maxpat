@@ -13,22 +13,32 @@
         "boxes": [
             {
                 "box": {
-                    "id": "obj-3",
+                    "id": "obj-8",
                     "maxclass": "newobj",
                     "numinlets": 0,
                     "numoutlets": 0,
-                    "patching_rect": [ 59.0, 293.0, 99.0, 22.0 ],
-                    "text": "SH.Sound.in.v01"
+                    "patching_rect": [ 47.0, 332.0, 117.0, 22.0 ],
+                    "text": "lg.random.notes.v01"
                 }
             },
             {
                 "box": {
-                    "id": "obj-2",
+                    "id": "obj-5",
                     "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 101.86, 195.04, 100.0, 22.0 ]
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 47.0, 220.0, 79.0, 22.0 ],
+                    "text": "lg.midi.in.v01"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-3",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 47.0, 273.0, 99.0, 22.0 ],
+                    "text": "SH.Sound.in.v01"
                 }
             },
             {
