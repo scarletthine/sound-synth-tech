@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 335.0, 130.0, 1000.0, 698.0 ],
+        "rect": [ 34.0, 116.0, 1000.0, 698.0 ],
         "boxes": [
             {
                 "box": {
@@ -57,18 +57,40 @@
             },
             {
                 "box": {
+                    "clipheight": 45.0,
                     "data": {
-                        "clips": []
+                        "clips": [
+                            {
+                                "absolutepath": "/Users/scarletthine/Documents/synth-tech-media-master/instrumental.samples/BassClarinet.ff.D3.stereo.aif",
+                                "filename": "BassClarinet.ff.D3.stereo.aif",
+                                "filekind": "audiofile",
+                                "id": "u142010807",
+                                "loop": 1,
+                                "content_state": {
+                                    "loop": 1
+                                }
+                            },
+                            {
+                                "absolutepath": "/Users/scarletthine/Documents/synth-tech-media-master/instrumental.samples/Vn-jette-E5-mf.aif",
+                                "filename": "Vn-jette-E5-mf.aif",
+                                "filekind": "audiofile",
+                                "id": "u984001010",
+                                "loop": 1,
+                                "content_state": {
+                                    "loop": 1
+                                }
+                            }
+                        ]
                     },
                     "id": "obj-33",
                     "maxclass": "playlist~",
-                    "mode": 0,
+                    "mode": "basic",
                     "numinlets": 1,
                     "numoutlets": 5,
                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                     "parameter_enable": 0,
                     "patching_rect": [ 785.0, 379.0, 150.0, 92.0 ],
-                    "quality": 0,
+                    "quality": "basic",
                     "saved_attribute_attributes": {
                         "candicane2": {
                             "expression": ""
@@ -319,7 +341,6 @@
                     "source": [ "obj-6", 0 ]
                 }
             }
-        ],
-        "autosave": 0
+        ]
     }
 }
