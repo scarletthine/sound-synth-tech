@@ -13,6 +13,56 @@
         "boxes": [
             {
                 "box": {
+                    "data": {
+                        "clips": [
+                            {
+                                "absolutepath": "Macintosh HD:/Users/scarletthine/Downloads/Stereo Sketch Project - Scarlett Hine /Reaper Session - Stereo Sketch/Media/02_PianoSpot.wav",
+                                "filename": "02_PianoSpot.wav",
+                                "filekind": "audiofile",
+                                "id": "u387007710",
+                                "loop": 1,
+                                "content_state": {
+                                    "loop": 1
+                                }
+                            }
+                        ]
+                    },
+                    "id": "obj-8",
+                    "maxclass": "playlist~",
+                    "mode": "basic",
+                    "numinlets": 1,
+                    "numoutlets": 5,
+                    "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 742.0, 427.0, 150.0, 30.0 ],
+                    "quality": "basic",
+                    "saved_attribute_attributes": {
+                        "candicane2": {
+                            "expression": ""
+                        },
+                        "candicane3": {
+                            "expression": ""
+                        },
+                        "candicane4": {
+                            "expression": ""
+                        },
+                        "candicane5": {
+                            "expression": ""
+                        },
+                        "candicane6": {
+                            "expression": ""
+                        },
+                        "candicane7": {
+                            "expression": ""
+                        },
+                        "candicane8": {
+                            "expression": ""
+                        }
+                    }
+                }
+            },
+            {
+                "box": {
                     "id": "obj-38",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -53,67 +103,6 @@
                     "outlettype": [ "signal" ],
                     "patching_rect": [ 333.0, 247.0, 382.0, 22.0 ],
                     "text": "selector~ 5"
-                }
-            },
-            {
-                "box": {
-                    "clipheight": 45.0,
-                    "data": {
-                        "clips": [
-                            {
-                                "absolutepath": "/Users/scarletthine/Documents/synth-tech-media-master/instrumental.samples/BassClarinet.ff.D3.stereo.aif",
-                                "filename": "BassClarinet.ff.D3.stereo.aif",
-                                "filekind": "audiofile",
-                                "id": "u142010807",
-                                "loop": 1,
-                                "content_state": {
-                                    "loop": 1
-                                }
-                            },
-                            {
-                                "absolutepath": "/Users/scarletthine/Documents/synth-tech-media-master/instrumental.samples/Vn-jette-E5-mf.aif",
-                                "filename": "Vn-jette-E5-mf.aif",
-                                "filekind": "audiofile",
-                                "id": "u984001010",
-                                "loop": 1,
-                                "content_state": {
-                                    "loop": 1
-                                }
-                            }
-                        ]
-                    },
-                    "id": "obj-33",
-                    "maxclass": "playlist~",
-                    "mode": "basic",
-                    "numinlets": 1,
-                    "numoutlets": 5,
-                    "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 785.0, 379.0, 150.0, 92.0 ],
-                    "quality": "basic",
-                    "saved_attribute_attributes": {
-                        "candicane2": {
-                            "expression": ""
-                        },
-                        "candicane3": {
-                            "expression": ""
-                        },
-                        "candicane4": {
-                            "expression": ""
-                        },
-                        "candicane5": {
-                            "expression": ""
-                        },
-                        "candicane6": {
-                            "expression": ""
-                        },
-                        "candicane7": {
-                            "expression": ""
-                        },
-                        "candicane8": {
-                            "expression": ""
-                        }
-                    }
                 }
             },
             {
@@ -305,12 +294,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-34", 2 ],
-                    "source": [ "obj-33", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-15", 0 ],
                     "order": 0,
                     "source": [ "obj-34", 0 ]
@@ -339,6 +322,12 @@
                 "patchline": {
                     "destination": [ "obj-34", 1 ],
                     "source": [ "obj-6", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-34", 2 ],
+                    "source": [ "obj-8", 0 ]
                 }
             }
         ]

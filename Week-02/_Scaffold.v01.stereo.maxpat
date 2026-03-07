@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 141.0, 105.0, 399.0, 771.0 ],
+        "rect": [ 117.0, 100.0, 400.0, 771.0 ],
         "boxes": [
             {
                 "box": {
@@ -48,7 +48,7 @@
                     "numinlets": 0,
                     "numoutlets": 0,
                     "patching_rect": [ 47.0, 172.0, 106.0, 22.0 ],
-                    "text": "SH.Sound.out.v01"
+                    "text": "SH.Sound.out.v02"
                 }
             },
             {
