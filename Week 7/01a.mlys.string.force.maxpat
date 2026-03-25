@@ -172,7 +172,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 89.28571343421936, 180.545436501503, 239.0, 22.0 ],
-                    "presentation_linecount": 2,
                     "text": "MonoString@access-out-1-position $1 0.01"
                 }
             },
@@ -944,6 +943,14 @@
             "obj-50": [ "live.slider[1]", "output.position", 0 ],
             "obj-51": [ "live.dial", "damping", 0 ],
             "obj-56": [ "live.dial[1]", "highFreqDamp", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

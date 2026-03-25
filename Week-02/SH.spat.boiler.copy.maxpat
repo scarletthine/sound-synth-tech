@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 728.0, 127.0, 843.0, 688.0 ],
+        "rect": [ 593.0, 101.0, 843.0, 688.0 ],
         "boxes": [
             {
                 "box": {
@@ -1680,6 +1680,14 @@
             "obj-37": [ "angular", "angular — speakers", 0 ],
             "obj-5": [ "live.text[20]", "live.text[20]", 0 ],
             "obj-93": [ "live.gain~[4]", "binaural — headphones", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

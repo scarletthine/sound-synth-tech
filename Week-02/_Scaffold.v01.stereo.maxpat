@@ -9,8 +9,18 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 117.0, 100.0, 400.0, 771.0 ],
+        "rect": [ 57.0, 101.0, 400.0, 771.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-7",
+                    "maxclass": "newobj",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 47.0, 401.0, 150.0, 22.0 ],
+                    "text": "sh.spat.boiler.copy.maxpat"
+                }
+            },
             {
                 "box": {
                     "id": "obj-8",
@@ -159,6 +169,26 @@
             }
         ],
         "lines": [],
+        "parameters": {
+            "obj-7::obj-105::obj-11": [ "live.toggle[23]", "live.toggle", 0 ],
+            "obj-7::obj-105::obj-12": [ "live.toggle[22]", "live.toggle", 0 ],
+            "obj-7::obj-105::obj-33": [ "live.menu[2]", "live.menu[2]", 0 ],
+            "obj-7::obj-105::obj-48": [ "live.toggle[24]", "live.toggle", 0 ],
+            "obj-7::obj-105::obj-8": [ "live.dial[3]", " ", 0 ],
+            "obj-7::obj-29": [ "live.drop", "live.drop", 0 ],
+            "obj-7::obj-37": [ "angular", "angular — speakers", 0 ],
+            "obj-7::obj-5": [ "live.text[20]", "live.text[20]", 0 ],
+            "obj-7::obj-93": [ "live.gain~[4]", "binaural — headphones", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
         "autosave": 0,
         "oscreceiveudpport": 0
     }

@@ -9,7 +9,8 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 54.0, 119.0, 993.0, 752.0 ],
+        "rect": [ 443.0, 100.0, 993.0, 752.0 ],
+        "toolbars_unpinned_last_save": 2,
         "boxes": [
             {
                 "box": {
@@ -333,7 +334,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 480.45976209640503, 483.9080379009247, 72.0, 35.0 ],
+                    "patching_rect": [ 480.45976209640503, 483.9080379009247, 75.0, 35.0 ],
                     "text": "7000. 7500. 6500."
                 }
             },
@@ -460,8 +461,8 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 297.0, 503.0, 68.0, 22.0 ],
-                    "text": "send~ out2"
+                    "patching_rect": [ 272.0, 503.0, 91.0, 22.0 ],
+                    "text": "send~ 2.source"
                 }
             },
             {
@@ -470,8 +471,8 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 173.0, 503.0, 68.0, 22.0 ],
-                    "text": "send~ out1"
+                    "patching_rect": [ 173.0, 503.0, 91.0, 22.0 ],
+                    "text": "send~ 1.source"
                 }
             },
             {
@@ -849,6 +850,7 @@
             },
             "inherited_shortname": 1
         },
-        "autosave": 0
+        "autosave": 0,
+        "oscreceiveudpport": 0
     }
 }

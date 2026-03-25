@@ -9,8 +9,31 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 114.0, 100.0, 776.0, 774.0 ],
+        "rect": [ 517.0, 100.0, 776.0, 772.0 ],
         "boxes": [
+            {
+                "box": {
+                    "comment": "",
+                    "id": "obj-5",
+                    "index": 0,
+                    "maxclass": "outlet",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 90.0, 761.0526587963104, 30.0, 30.0 ]
+                }
+            },
+            {
+                "box": {
+                    "comment": "",
+                    "id": "obj-3",
+                    "index": 0,
+                    "maxclass": "inlet",
+                    "numinlets": 0,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 98.92857313156128, 100.0, 30.0, 30.0 ]
+                }
+            },
             {
                 "box": {
                     "id": "obj-52",
@@ -33,17 +56,6 @@
                         }
                     },
                     "varname": "live.gain~[1]"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-51",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "signal" ],
-                    "patching_rect": [ 162.0, 118.0, 74.0, 22.0 ],
-                    "text": "receive~ in1"
                 }
             },
             {
@@ -272,26 +284,6 @@
             },
             {
                 "box": {
-                    "id": "obj-6",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 220.00000524520874, 762.8571610450745, 68.0, 22.0 ],
-                    "text": "send~ out2"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-5",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 137.14286041259766, 757.1428751945496, 68.0, 22.0 ],
-                    "text": "send~ out1"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-4",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -408,14 +400,6 @@
             {
                 "patchline": {
                     "destination": [ "obj-5", 0 ],
-                    "order": 1,
-                    "source": [ "obj-2", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-6", 0 ],
-                    "order": 0,
                     "source": [ "obj-2", 0 ]
                 }
             },
@@ -423,6 +407,12 @@
                 "patchline": {
                     "destination": [ "obj-36", 0 ],
                     "source": [ "obj-24", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-52", 0 ],
+                    "source": [ "obj-3", 0 ]
                 }
             },
             {
@@ -478,12 +468,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-52", 0 ],
-                    "source": [ "obj-51", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-1", 0 ],
                     "source": [ "obj-52", 0 ]
                 }
@@ -511,6 +495,14 @@
         "parameters": {
             "obj-2": [ "live.gain~", "live.gain~", 0 ],
             "obj-52": [ "live.gain~[1]", "live.gain~[1]", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0

@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 116.0, 1000.0, 698.0 ],
+        "rect": [ 482.0, 255.0, 1000.0, 698.0 ],
         "boxes": [
             {
                 "box": {
@@ -330,6 +330,7 @@
                     "source": [ "obj-8", 0 ]
                 }
             }
-        ]
+        ],
+        "oscreceiveudpport": 0
     }
 }
